@@ -4,14 +4,14 @@ This web page allows users to generate a Table of Contents from GitHub Markdown 
 
 To use this tool, you must have JavaScript enabled in your browser.
 
-**You can use this now by going to [readme-toc.pages.dev](https://readme-toc.pages.dev)**
+**You can use this now by going to [toc.3kh0.net](https://toc.3kh0.net)**
 
 ## Why use it
 
 This tool was adapted from [markdown-toc](https://ecotrust-canada.github.io/markdown-toc/) put with a few improvements like auto-conversion and better CSS.
 
 ## Usage
-1. Go to [readme-toc.pages.dev](https://readme-toc.pages.dev).
+1. Go to [toc.3kh0.net](https://toc.3kh0.net).
 2. Paste your Markdown into the left textarea.
 3. Click the "Convert" button to generate the Table of Contents.
 4. Copy the generated Table of Contents from the right textarea and use it in your documentation.
