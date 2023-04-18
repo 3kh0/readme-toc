@@ -18,7 +18,7 @@ This tool was adapted from [markdown-toc](https://ecotrust-canada.github.io/mark
 
 ## Contributing
 
-Contributions are welcome! To contribute to this project, please follow these steps:
+Contributions are welcome! Make sure you follow the [Code of conduct](CODE_OF_CONDUCT.md) before getting started. To contribute to this project, please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch for your changes.
