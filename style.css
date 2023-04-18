@@ -1,0 +1,96 @@
+/* Center the main content */
+body {
+  background-color: #F8F8F8;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header */
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem;
+}
+
+/* Style the javascript warning */
+h2 {
+  color: red;
+  text-align: center;
+}
+
+/* Style the intro paragraph */
+p {
+  text-align: center;
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+/* Style the container */
+div.container {
+  margin: 2rem auto;
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style the columns */
+div.column {
+  height: 500px;
+  width: 45%;
+  margin: 1.5%;
+  background-color: #FFF;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+/* Style the textarea */
+textarea {
+  width: 100%;
+  border: 3px solid #4caf50;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+/* Style the markdown textarea */
+textarea#md {
+  height: calc(100% - 17px);
+  font-size: 1rem;
+  outline: none;
+  resize: none;
+}
+
+/* Style the TOC textarea */
+textarea#toc {
+  height: calc(100% - 17px);
+  font-size: 1rem;
+  outline: none;
+  resize: none;
+  background-color: #f6f5f4;
+  color: #333;
+}
+
+/* Style the convert button */
+button {
+  font-size: 1rem;
+  background-color: #4CAF50;
+  color: #FFF;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  margin: 1rem auto;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+  display: block;
+  cursor: pointer;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  div.column {
+    width: 100%;
+    margin: 1rem 0;
+  }
+}
