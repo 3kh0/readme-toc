@@ -2,6 +2,15 @@
 
 This web page allows users to generate a Table of Contents from GitHub Markdown or Wiki online. Simply paste your Markdown into the left textarea, and the generated Table of Contents will appear in the right textarea. You can then copy and paste the Table of Contents into your GitHub repository or other documentation.
 
+- [GitHub TOC generator](#github-toc-generator)
+  * [Why use it](#why-use-it)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [License](#license)
+
+<small><i><a href='http://github.com/3kh0/readme-toc/'>Table of contents generated with readme-toc</a></i></small>
+
+
 To use this tool, you must have JavaScript enabled in your browser.
 
 **You can use this now by going to [toc.3kh0.net](https://toc.3kh0.net)**
