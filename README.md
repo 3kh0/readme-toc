@@ -42,4 +42,4 @@ If you find a bug or have a feature request, please submit an issue on this GitH
 By contributing to this project, you agree to release your contributions under the terms of the MIT License.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
