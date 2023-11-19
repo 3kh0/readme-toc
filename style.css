@@ -1,4 +1,3 @@
-/* Center the main content */
 body {
   background-color: #F8F8F8;
   font-family: sans-serif;
@@ -6,27 +5,23 @@ body {
   padding: 0;
 }
 
-/* Style the header */
 h1 {
   text-align: center;
   font-size: 2rem;
   margin: 2rem;
 }
 
-/* Style the javascript warning */
 h2 {
   color: red;
   text-align: center;
 }
 
-/* Style the intro paragraph */
 p {
   text-align: center;
   font-size: 1rem;
   margin: 1rem;
 }
 
-/* Style the container */
 div.container {
   margin: 2rem auto;
   max-width: 800px;
@@ -36,7 +31,6 @@ div.container {
   align-items: center;
 }
 
-/* Style the columns */
 div.column {
   height: 500px;
   width: 45%;
@@ -47,7 +41,6 @@ div.column {
   padding: 1rem;
 }
 
-/* Style the textarea */
 textarea {
   width: 100%;
   border: 3px solid #4caf50;
@@ -55,7 +48,6 @@ textarea {
   padding: 0.5rem;
 }
 
-/* Style the markdown textarea */
 textarea#md {
   height: calc(100% - 17px);
   font-size: 1rem;
@@ -63,7 +55,6 @@ textarea#md {
   resize: none;
 }
 
-/* Style the TOC textarea */
 textarea#toc {
   height: calc(100% - 17px);
   font-size: 1rem;
@@ -73,7 +64,6 @@ textarea#toc {
   color: #333;
 }
 
-/* Style the convert button */
 button {
   font-size: 1rem;
   background-color: #4CAF50;
@@ -87,7 +77,6 @@ button {
   cursor: pointer;
 }
 
-/* Responsive design for smaller screens */
 @media (max-width: 768px) {
   div.column {
     width: 100%;
