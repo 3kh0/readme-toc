@@ -1,10 +1,4 @@
-// Check if JavaScript is enabled
-if (!document.getElementById) {
-  // Display an error message if JavaScript is disabled
-  const container = document.getElementById("container");
-  container.innerHTML = "<p>Sorry, this site requires JavaScript to function properly.</p>";
-} else {
-  // Get the Markdown textarea element
+
   const markdownTextarea = document.getElementById("md");
 
   // Add an event listener for the 'paste' event
@@ -14,7 +8,6 @@ if (!document.getElementById) {
       convert();
     }, 10);
   });
-}
 
 
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
