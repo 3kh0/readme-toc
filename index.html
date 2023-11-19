@@ -1,21 +1,99 @@
 <html>
   <head>
     <title>Generate Table of Contents</title>
-    <meta name="description" content="📜 Generate a Table of Contents from GitHub Markdown or Wiki online.">
-    <meta name="title" content="Generate Table of Contents">
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="📜 Generate a Table of Contents from GitHub Markdown or Wiki online." />
+    <meta name="title" content="Generate Table of Contents" />
+    <style>
+      body {
+        background-color: #f8f8f8;
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 2rem;
+        margin: 2rem;
+      }
+
+      h2 {
+        color: red;
+        text-align: center;
+      }
+
+      p {
+        text-align: center;
+        font-size: 1rem;
+        margin: 1rem;
+      }
+
+      div.container {
+        margin: 2rem auto;
+        max-width: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+
+      div.column {
+        height: 500px;
+        width: 45%;
+        margin: 1.5%;
+        background-color: #fff;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+        border-radius: 5px;
+        padding: 1rem;
+      }
+
+      textarea {
+        width: 100%;
+        border: 3px solid #4caf50;
+        border-radius: 5px;
+        padding: 0.5rem;
+      }
+
+      textarea#md {
+        height: calc(100% - 17px);
+        font-size: 1rem;
+        outline: none;
+        resize: none;
+      }
+
+      textarea#toc {
+        height: calc(100% - 17px);
+        font-size: 1rem;
+        outline: none;
+        resize: none;
+        background-color: #f6f5f4;
+        color: #333;
+      }
+
+      button {
+        font-size: 1rem;
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 1rem 2rem;
+        margin: 1rem auto;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+        display: block;
+        cursor: pointer;
+      }
+
+      @media (max-width: 768px) {
+        div.column {
+          width: 100%;
+          margin: 1rem 0;
+        }
+      }
+    </style>
   </head>
   <body id="container">
     <h1>GitHub TOC generator</h1>
     <p>This page can generate your README Table of Contents online.</p>
-    <noscript>
-      <h2>Please enable JavaScript to use this site</h2>
-      <style>
-        div, p, button {
-          display: none;
-        }
-      </style>
-    </noscript>
     <div style="display: flex;">
       <div class="column">
         Paste README here
